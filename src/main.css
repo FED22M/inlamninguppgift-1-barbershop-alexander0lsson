@@ -1,0 +1,57 @@
+.container {   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 200px 200px 200px 200px;
+    grid-template-areas: 
+    "header header header header"
+    "welcome welcome welcome welcome"
+    "barber1 barber2 barber3 barber4"
+    "about   about   about   about"
+    "testi   testi   testi   testi"
+    "footer  footer  footer  footer"
+}
+
+header {
+    background-color: black;
+    grid-area: header;
+}
+
+.welcome {
+    background-color: whitesmoke;
+    grid-area: welcome;
+}
+
+.barber1 {
+    background-color: chocolate;
+    grid-area: barber1;
+}
+
+.barber2 {
+    background-color: coral;
+    grid-area: barber2;
+}
+
+.barber3 {
+    background-color: chocolate;
+    grid-area: barber3;
+}
+
+.barber4 {
+    background-color: coral;
+    grid-area: barber4;
+}
+
+.about {
+    background-color: white; 
+    grid-area: about;
+}
+
+.testimonials {
+    background-color: beige;
+    grid-area: testi;
+}
+
+footer {
+    background-color: black;
+    grid-area: footer;
+}
