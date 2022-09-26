@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barber in San Francisco">
     <meta name="author" value="Alexander Olsson">
     <title>Barbershop</title>
+
+    <link rel="stylesheet" href="/src/main.css">
 </head>
+
 <body>
 <!----------- Header (nålad på sidan----------->
+<div class="container">
 <header>
     <h1>Barbershop</h1>
 
@@ -22,23 +27,18 @@
             <li><a href="#">Team</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
-            <nav>
-                <span></span>
-                <span></span>
-                <span></span>
-            </nav>
         </ul>
     </nav>
 </header>
 
 <!--- Welcome ------------------------------>
 
-<main>
+<div class="welcome">
     <img src="" alt="">
     <div>
         <h2>Welcome to Barbershop</h2>
-        <h4>We will make your <br>
-            style of your dreams<p/>
+        <p>We will make your <br>
+            style of your dreams</p>
     </div>
     <div>
         <p>A small river named Duden flows by their place and <br>supplies it with the necessary regeliala. It is a <br>paradisematic country, in which roasted parts of <br>sentences fly into your mouth.</p>
@@ -46,17 +46,17 @@
     <div>
         <h2><a href="#about">Learn more about us</a></h2>
     </div>
-</main>
+</div>
 
  <!--- Barber1 ------------------------------>
-<div id="pricing">
+<div class="barber1" id="pricing">
     <img src="" alt="">
     <h2>Hair Styles</h2>
     <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary regeliala. It is a <br> paradisematic country, in which roasted <br> parts</p>
 </div>
 
  <!--- Barber2 ------------------------------>
- <div>
+ <div class="barber2">
     <img src="" alt="">
     <h2>Beard Trim</h2>
     <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary regeliala. It is a <br> paradisematic country, in which roasted <br> parts</p>
@@ -64,40 +64,43 @@
 
  <!--- Barber3 ------------------------------>
 
- <div>
+ <div class="barber3">
     <img src="" alt="">
     <h2>Hot shave</h2>
     <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary regeliala. It is a <br> paradisematic country, in which roasted <br> parts</p>
 </div>
 
 <!--- Barber4 ------------------------------>
-<div>
+<div class="barber4">
     <img src="" alt="">
     <h2>Hair schampoo</h2>
     <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary regeliala. It is a <br> paradisematic country, in which roasted <br> parts</p>
 </div>
 
-<!--- About us ------------------------------->
-<div>
-    <img src="" alt="">
-    <h2>About barber</h2>
-    <h4>A smooth barber <br>experience in your town</h4>
-    <p>Far, far away, behind the word mountains, far from the <br>countries Vokalia and Consonantia, there live the blind text. <br> Separated they live in Bookmarksgrove right at the coast of the <br> Semantics, a large language ocean. A small river named <br> Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-<div>
-    <a href=""></a>'
-    <p>20</p>
-    <p>Year of <br>experience</p>
-</div>
+<!--- About ------------------------------->
+<div class="about">
+    <div>
+        <img src="" alt="">
+        <h2>About barber</h2>
+        <p>A smooth barber <br>experience in your town</p>
+        <p>Far, far away, behind the word mountains, far from the <br>countries Vokalia and Consonantia, there live the blind text. <br> Separated they live in Bookmarksgrove right at the coast of the <br> Semantics, a large language ocean. A small river named <br> Duden flows by their place and supplies it with the necessary regelialia.</p>
+    </div>
+    
+    <div class="calendar">
+        <a href=""></a>'
+        <p>20</p>
+        <p>Year of <br>experience</p>
+    </div>
+</div>    
 
 <!---- Testimonials -------------------------->
-<div>
+<div class="testimonials">
     <h2>Testimonials</h2>
-    <h4>People say <br>about our barber</h4>
+    <p4>People say <br>about our barber</p4>
 
-    <div>
+    <div class="testimonial">
         <i></i>
-        <p></p>
+        <p>Far, far away, behind the word <br> mountains, far from the countries <br> Vokalia and Consonantia, there live <br> the blind text.</p>
         <div>
             <img src="" alt="">
             <ul>
@@ -114,9 +117,9 @@
         </div>
         <img src="" alt="">
     </div>
-    <div>
+    <div class="testimonial">
         <i></i>
-        <p></p>
+        <p>Far, far away, behind the word <br> mountains, far from the countries <br> Vokalia and Consonantia, there live <br> the blind text.</p>
         <div>
             <img src="" alt="">
             <ul>
@@ -133,9 +136,9 @@
         </div>
         <img src="" alt="">
     </div>
-    <div>
+    <div class="testimonial">
         <i></i>
-        <p></p>
+        <p>Far, far away, behind the word <br> mountains, far from the countries <br> Vokalia and Consonantia, there live <br> the blind text.</p>
         <div>
             <img src="" alt="">
             <ul>
@@ -155,66 +158,54 @@
 </div>
 
 <!-- Footer ---------->
-<div><ul>
-    <li><i></i></li>
-    <li><i></i></li>
-    <li><i></i></li>
-</ul>
-</div>
+<footer>
+    <div>
+        <ul>
+            <li><i></i></li>
+            <li><i></i></li>
+            <li><i></i></li>
+        </ul>
+    </div>
 
-<div>
-    <h2>Explore</h2>
-    <ul>
-            <li>
-                <p>About</p>
-            </li>
-            <li>
-                <p>Services</p>
-            </li>
-            <li>
-                <p>Gallery</p>
-            </li>
-            <li>
-                <p>Blog</p>
-            </li>
-    </ul>
-</div>
+    <div>
+        <h2>Explore</h2>
+        <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Gallery</li>
+            <li>Blog</li>
+        </ul>
+    </div>
 
-<div>
-    <h2>Info</h2>
-    <ul>
-            <li>
-                <p>Join us</p>
-            </li>
-            <li>
-                <p>Make Appointment</p>
-            </li>
-            <li>
-                <p>Privacy & Policy</p>
-            </li>
-            <li>
-                <p>Term & Conditions</p>
-            </li>
-    </ul>
-</div>
+    <div>
+        <h2>Info</h2>
+        <ul>
+            <li>Join us</li>
+            <li>Make Appointment</li>
+            <li>Privacy & Policy</li>
+            <li>Term & Conditions</li>
+        </ul>
+    </div>
 
-<div>
-    <h2>Have a question?</h2>
-    <ul>
-        <li>
-            <i></i>
-            <p>Fake Mouantain, 203 Carlifonia</p>
-        </li>
-        <li>
-            <i></i>
-            <address><a href="tel:+123456789">(123) 456 789</a></address>
-        </li>
-        <br>
-        <li>
-            <i></i>
-            <address><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></address>
-        </li>
-    </ul>
+    <div>
+        <h2>Have a question?</h2>
+            <ul>
+                <li>
+                    <i></i>
+                    203 Fake St. Mountain View, San Francisco <br>California, USA
+                </li>
+                <li>
+                    <i></i>
+                    <address><a href="tel:+123456789">(123) 456 789</a></address>
+                </li>
+                <br>
+                <li>
+                    <i></i>
+                    <address><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></address>
+                </li>
+            </ul>
+    </div>
+</footer>
 </div>
 
 </body>
