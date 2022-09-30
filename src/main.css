@@ -24,23 +24,43 @@ position: relative;
 }
 
 .barber1 {
-background-color: rgb(191 146 91);
-grid-area: barber1;
+    background-color: rgb(191 146 91);
+    grid-area: barber1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 50vh;
 }
 
 .barber2 {
-background-color: rgb(177 136 83);
-grid-area: barber2;
+    background-color: rgb(177 136 83);
+    grid-area: barber2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 50vh;
 }
 
 .barber3 {
-background-color: rgb(191 146 91);
-grid-area: barber3;
+    background-color: rgb(191 146 91);
+    grid-area: barber3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 50vh;
 }
 
 .barber4 {
-background-color: rgb(177 136 83);
-grid-area: barber4;
+    background-color: rgb(177 136 83);
+    grid-area: barber4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 50vh;
 }
 
 .about {
@@ -69,8 +89,6 @@ h1, h2 {
 font-family: 'Barlow', sans-serif;
 text-transform: uppercase;
 }
-
-
 
 /* navbar */
 
@@ -174,4 +192,61 @@ font-size: 1rem;
 .bakg_5 a{
 color: rgb(191 146 91);
 text-decoration: none;
+}
+
+/* --- Barber Flex -------------- */
+
+.barber1-style-img {
+    min-height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber1.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber2-style-img {
+    min-height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber2.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber3-style-img {
+    min-height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber3.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber4-style-img {
+    min-height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber4.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber-style-text {
+    height: 200px;
+    width: 400px;
+}
+
+.barber-style-text h2 {
+    text-align: center;
+    margin: 1rem;
+    color: white
+}
+
+.barber-style-text p {
+    color: white;
+}
+
+.barber-hight {
+    min-height: 100%;
 }

@@ -1,0 +1,233 @@
+
+
+.barber0 {
+    background-color: green;
+    grid-area: barber1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barber1 {
+    background-color: rgb(191 146 91);
+    grid-area: barber1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.barber2 {
+    background-color: rgb(177 136 83);
+    grid-area: barber2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.barber3 {
+    background-color: rgb(191 146 91);
+    grid-area: barber3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.barber4 {
+    background-color: rgb(177 136 83);
+    grid-area: barber4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.about {
+    background-color: white; 
+    grid-area: about;
+}
+
+.testimonials {
+    background-color:rgb(235 232 222);
+    grid-area: testi;
+}
+
+footer {
+    background-color:rgb(20 27 37);
+    grid-area: footer;
+}
+
+/* allmänt */
+
+body * {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+}
+
+/* navbar */
+
+.header:first-child {
+    padding-left: 1vw;
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(20, 27, 37, 0.8);
+    height: 7.5vh;
+    padding-top: 13vh;
+    text-transform: uppercase;
+}
+
+h1 {
+    color:white;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.links {
+    padding: 0px;
+    list-style: none;
+}
+
+.links li {
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+.links li a {
+    color: rgb(186 185 183);
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+.links li a:hover {
+    color: rgb(191 146 91)
+}
+
+/* bakgrundsbild och position-abs text */
+
+.image {
+    height: auto;
+    width: fit-content;
+}
+
+.bakg_1 {
+    color: rgb(191 146 91);
+    position: absolute;   
+    top: 38vh;
+    font-size: 1.2rem
+}
+
+.bakg_2 {
+    color: whitesmoke;
+    position: absolute;
+    top: 42vh;
+    font-size: 2.7rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.bakg_3 {
+    color: whitesmoke;
+    position: absolute;
+    top: 49vh;
+    font-size: 2.7rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.span_style {
+    font-family: 'Barlow', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px whitesmoke;
+}
+
+.bakg_4 {
+    position: absolute;
+    color: whitesmoke;
+    position: absolute;
+    top: 58vh;
+    font-size: 1rem;
+}
+
+.bakg_5 {   
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border: 2px solid rgb(191 146 91); 
+    top: 75vh;
+    font-size: 1rem;
+}
+
+.bakg_5 a {
+    color: rgb(191 146 91);
+    text-decoration: none;
+}
+
+/* --- Barber Flex -------------- */
+
+.barber1_div1 {
+    height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber1.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber2_div1 {
+    height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber2.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber3_div1 {
+    height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber3.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber4_div1 {
+    height: 200px;
+    width: 200px;
+    background-image: url("/Bilder/barber4.jpeg");
+    margin-top: -100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.barber-style-text {
+    height: 200px;
+    width: 400px;
+}
+
+.barber-style-text h2 {
+    text-align: center;
+    margin: 1rem;
+    color: white
+}
+
+.barber-style-text p {
+    color: white;
+}
