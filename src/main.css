@@ -17,11 +17,10 @@
     grid-area: header;
     background-image: url("/Bilder/welcome_1500:996px:411K\ .jpeg");
     background-color: rgba(20, 27, 37, 0.7);
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    background-blend-mode:darken ;
-    position: relative;
-    height: 100vh;
+    background-blend-mode: darken ;
 }
 
 .barber1 {
@@ -88,116 +87,109 @@
     background-color: rgba(20, 27, 37);
 }
 
-/* bakgrundsbild och position-about text */
+/* --- Header ------------------- */
 
-.image {
-    height: auto;
-    width: fit-content;
-    }
-
-/* --- navbar ------------------------ */
-
-.header:first-child {
-    padding-left: 1vw;
-    } 
-    
-    .navbar {
+/* --- Navbar ------------------- */
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(20, 27, 37, 0.8);
     height: 7.5vh;
-    padding-top: 13vh;
+    width: 100%;
     text-transform: uppercase;
+    position: absolute;
     }
-    
-    h1 {
+
+h1 {
     color:white;
     font-size: 1.4em;
     font-weight: 900;
-    }
-    
-    .links {
+    padding-left: 1rem;
+}
+
+.links {
     padding: 0px;
-    list-style: none;
     }
-    
-    .links li {
+
+.links li {
     display: inline;
     padding: 0 15px 0 15px;
-    }
-    
-    .links li a {
+    font-size: small;
+    list-style-type: none;
+}
+
+.links li a {
     color: rgb(186 185 183);
     font-family: 'Barlow', sans-serif;
     text-decoration: none;
     font-size: 0.7rem;
     }
-    
+
     .links li a:hover {
-    color: rgb(191 146 91)
-    }
-    
-    /* bakgrundsbild och position-abs text */
-    
-    .image {
-    height: auto;
-    width: fit-content;
-    }
-    
-    .bakg_1 {
+        color: rgb(191 146 91)
+        }
+
+/* --- Bakgrundstext -------------- */
+
+.bakg-wrap1 {
+    height: 22vh;
+    width: 45%;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 50%;
+}
+
+.bakg-wrap2 {
+    height: 23vh;
+    width: 30%;
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 51%;
+    border-left: 3px solid rgb(191 146 91);
+}
+
+.bakg-h2 {
     color: rgb(191 146 91);
-    position: absolute;   
-    top: 38vh;
-    font-size: 1.2rem
-    }
-    
-    .bakg_2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.6vh;
+}
+
+.bakg-text-styling {
     color: whitesmoke;
-    position: absolute;
-    top: 42vh;
     font-size: 2.7rem;
     font-family: 'Barlow', sans-serif;
-    }
-    
-    .bakg_3 {
-    color: whitesmoke;
-    position: absolute;
-    top: 49vh;
-    font-size: 2.7rem;
-    font-family: 'Barlow', sans-serif;
-    }
-    
-    .span_style {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.span_style {
     font-family: 'Barlow', sans-serif;
     color: transparent;
     -webkit-text-stroke: 1px whitesmoke;
     }
-    
-    .bakg_4 {
-    position: absolute;
+
+
+.bakg-p3 {
     color: whitesmoke;
-    position: absolute;
-    top: 58vh;
     font-size: 1rem;
-    }
-    
-    .bakg_5 {   
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    margin-left: 10%;
+}
+
+.bakg-länk {   
     width: 200px;
     border: 2px solid rgb(191 146 91); 
-    top: 75vh;
-    font-size: 1rem;
-    }
+    font-size: 1rem;    
+    text-align: center;
+    padding: 15px 0;
+    margin-left: 10%;
     
-    .bakg_5 a{
+}
+
+.bakg-länk a {
     color: rgb(191 146 91);
     text-decoration: none;
-    }
+}
     
     /* --- Barber Flex -------------- */
     
