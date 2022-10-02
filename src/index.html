@@ -20,37 +20,32 @@
 <body>
     <!--- Header ---------------------------------->
     <header class="header">
-        <div class="navbar">
+        <nav class="navbar">
             <h1 id="home">Barbershop</h1>
-            <nav>
-                <ul class="links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+            <button id="menu-button">Menu</button>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#">Gallery</a>
+                <a href="#">Team</a>
+                <a href="#">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
 
         <!--- Bakgrundsbild ------------------------>    
-        <div class="bakg-wrap1">
+    <div class="bakg-wrap1">
             <h2 class="bakg-h2">Welcome to Barbershop</h2>           
             <p class="bakg-text-styling">We will make <span class="span_style">your <br> style</span> of your dreams</p>
-        </div>
-        <div class="bakg-wrap2">  
-            <p class="bakg-p3">A small river named Duden flows by their place and supplies it with the necessary regeliala. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            
-            <div class="bakg-länk">
-                <a href="#about">Learn more about us</a>
-            </div>
-        </div>
+    </div>
+    <div class="bakg-wrap2">  
+        <p class="bakg-p3">A small river named Duden flows by their place and supplies it with the necessary regeliala. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+    </div>
+    <div class="bakg-länk">
+        <a href="#about">Learn more about us</a>
+    </div>
     </header>
-
-    <!--- Barber1 och 2 ------------------------>
-    <div class="barber-hight">
     
     <!--- Barber1 ------------------------------>
     <div class="barber1" id="pricing">
@@ -68,11 +63,8 @@
         <h2>Bear Trim</h2>
             <p>A small river named Duden flows by their place and supplies it with the necessary regeliala. It is a <br> paradisematic country, in which roasted parts</p>
         </div>
-    </div>     
-    </div> 
+    </div>      
 
-    <!--- Barber3 och 4 ------------------------>
-    <div class="barber-hight">
     <!--- Barber3 ------------------------------>
     <div class="barber3">
             <div class="barber3-style-img"></div>
@@ -92,10 +84,9 @@
     </div>
         
     <!--- About ------------------------------->
-    <div class="about">
         <div class="about1">
             <div class="about-image">
-                <img src="/Bilder/about_us_stor.jpeg" alt="">
+                <img src="/Bilder/about_stor.jpeg" alt="Picture of our saloon" />
             </div>
         </div>
         <div class="about2">
@@ -114,8 +105,7 @@
                 </div>
             </div>
         </div>
-    </div>     
-
+   
     <!--- Testimonials -------------------------->
     <div class="testimonials">
         <div class="testi-div">
@@ -195,7 +185,7 @@
             </ul>
         </div>
 
-        <div class="footer4">
+        <div class="footer4" id="contact">
             <h2>Have a question?</h2>
                 <ul class="question">
                     <li class="street">
@@ -209,6 +199,13 @@
                     </li>
                 </ul>
         </div>       
-        </footer>
+    </footer>
 </body>
+
+<script>
+    const menuBtn = document.querySelector('#menu-button');
+    menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('menu-open');
+    });
+</script>
 </html>

@@ -1,0 +1,7 @@
+.about {
+    background-color: white; 
+    grid-area: about;
+    height: 50vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
